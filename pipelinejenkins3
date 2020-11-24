@@ -17,7 +17,7 @@ pipeline{
                         banana: {
                             echo "This is banana"
                             sleep 3
-                           }
+                           },
                         peach: {
                             echo "This is peach"
                             sleep 4
