@@ -8,6 +8,7 @@ pipeline{
         }
         stage('para') {
             steps {
+                echo 'para'
                 parallel(
                         apple: {
                             echo "This is apple"
